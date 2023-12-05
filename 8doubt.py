@@ -9,5 +9,5 @@ for i in range(1,100):
   y=((40*np.cos((math.pi)/10))*t)/(((2*i-1)*np.pi)**2)
   sum=sum+y
   arr.append(y)
-plt.plot(arr)
+plt.plot(sum)
 plt.show()
